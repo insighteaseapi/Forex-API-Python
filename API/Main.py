@@ -1,11 +1,11 @@
-# fcs_forex/main.py
-# Import FCS API Class
-from Fcs_forex import FCSForex
+# insight_forex/main.py
+# Import insight API Class
+from insight_forex import insightForex
 
 
 def main():
-    # An API key, you can get free at https://fcsapi.com/dashboard
-    forex_api = FCSForex(api_key='Your_Api_Key')
+    # An API key, you can get free at https://insightapi.com/dashboard
+    forex_api = insightForex(api_key='TrN3njXhvR5Jkqz0VPZIOdHRrE')
 
     latest_price = forex_api.get_latest_price("GBP/CHF")
     print("Latest Price of GBP/CHF :", latest_price)
