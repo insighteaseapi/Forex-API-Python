@@ -64,10 +64,9 @@ python main.py
 ```
 
 ### 🔗 Other Links
-- **Forex live prices with Socket:** [Github Real Time prices](https://github.com/fcsapi/Real-Time-Prices-with-Socket-PHP)
-- **Forex JS WebSocket:** [https://fcsapi.com/document/socket-api](https://insightease.com/docs/stock-api)
-- **Python Library:** [Forex API Python](https://github.com/fcsapi/Forex-API-Python)
-- **NodeJS Library:** [Forex API Node Js](https://github.com/fcsapi/forex-api-node-js)
+- **Real-Time Currency Conversion:** [Github Real Time Conversion](https://insightease.com/currency-converter)
+- **Forex WebSocket:** [https://fcsapi.com/document/socket-api](https://insightease.com/docs/stock-api)
+
 
 
 ## Notes: In order to manage API calls, the **requests** library is necessary.
