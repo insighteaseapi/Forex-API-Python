@@ -1,4 +1,4 @@
-# Insight Forex API Integration
+# Insightease Forex API Integration
 
 ## Overview
 This project integrates with the **Insight Forex API** to retrieve and manipulate forex-related data. It provides functionalities such as fetching forex symbols, currency conversion, retrieving latest prices, and analyzing historical data using Python.
