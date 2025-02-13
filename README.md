@@ -1,70 +1,49 @@
-# Insightease Forex API Integration
+# Insight Forex API Integration
 
 ## Overview
+This project integrates with the **Insight Forex API** to retrieve and manipulate forex-related data. It provides functionalities such as fetching forex symbols, currency conversion, retrieving latest prices, and analyzing historical data using Python.
 
-### Language Used
+### Components:
+- `insight_forex.py`: Implements the `insightForex` class, which provides multiple API interaction methods.
+- `Main.py`: Demonstrates the usage of `insightForex` by calling various functions and printing the results.
+# Integration of the Insight Forex API
 
-**Python** is utilized to implement this project.
-This project retrieves and manipulates forex-related data by integrating with the **Insightease Forex API**. It provides features including obtaining forex symbols, converting currencies, getting the most recent prices, and using Python to analyze historical data.
-
-## Components
-- **`insightease_forex.py`**: Implements the `insighteaseForex` class, which provides multiple API interaction methods.
-- **`main.py`**: Demonstrates how to use `insighteaseForex` by executing various functions and displaying their results.
-
-## Installation
-### Prerequisites
-Ensure that Python is installed (Python 3.6 or later is recommended). Next, install the required dependencies:
-
-### Required Library
-The **Requests** library is used for making HTTP API calls and handling responses.
-
-Install the dependency using:
-```sh
-pip install requests
-```
-
-## Usage
-To make API requests and retrieve forex data, run the main script:
-```sh
-python main.py
-```
-
-### Example Usage
-An example request to retrieve the most recent GBP/CHF price:
-```python
-from insightease_forex import insighteaseForex
-
-forex_api = insighteaseForex(api_key='YOUR_API_KEY')
-latest_price = forex_api.get_latest_price("GBP/CHF")
-print("Latest Price of GBP/CHF:", latest_price)
-```
-
-## Features
-- **Retrieve Forex Symbols**: Get a list of available forex symbols.
-- **Fetch Latest Prices**: Obtain the latest exchange rates for various currency pairs.
-- **Currency Conversion**: Convert a given amount between different currencies.
-- **Historical Data**: Retrieve past forex rates for analysis.
-- **Pivot Points & Indicators**: Get technical analysis data like moving averages and pivot points.
-- **Economic Calendar**: Fetch economic events and market-moving news.
-- **Search API**: Perform searches for specific currency pairs.
-
-## Other Links
-
-- **[Forex live prices with python API](https://github.com/fcsapi/Real-Time-Prices-with-Socket-PHP)** - Github Real-Time Prices
-
-- **[Forex WebSocket]([https://insightease.com/docs/forex-api])** - WebSocket API Documentation
-
-- **[Currency Conversion](https://insightease.com/currency-converter)** - Real-Time Currency Conversion
+## Summary
+This project retrieves and manipulates forex-related data by integrating with the **Insight Forex API**. It offers features including currency conversion, obtaining the most recent values, retrieving forex symbols, and using Python to analyze historical data.
 
 
-Support and Contact
-you can contact us at support@support@insightease.com or Live chat at https://insightease.com
+### Elements:
+The `insightForex` class, which offers a number of API interaction methods, is implemented by `insight_forex.py`.
+- `Main.py`: Shows how to use `insightForex` by executing different functions and displaying the output.
 
-## Notes
-- The **requests** library is required to handle API calls.
-- The API key should be stored securely instead of being hardcoded.
-- Ensure the API base URL is correct and up to date.
-- API responses are in JSON format and should be properly parsed.
+## Installation ### Necessities
+Make sure Python is installed; it is advised to use Python 3.6 or later. Install the necessary dependencies next:
 
-## License
-This project is intended for educational purposes. Please refer to the API provider's terms for usage restrictions.
+#### Necessary Library
+**Requests**: Making HTTP calls to the API and managing their answers are done with this library.
+
+Use the following command to install the dependencies: ```sh pip install requests ```
+
+## Application
+To make API requests and retrieve FX data, run the main script:
+```sh main.py in Python
+
+
+
+## Use Case Example
+An example request to retrieve the most recent GBP/CHF pricing is as follows:
+Python ```python import insightForex from insight_forex
+
+insightForex(api_key='YOUR_API_KEY') = forex_api
+forex_api.get_latest_price("GBP/CHF") = latest_price
+"Latest Price of GBP/CHF:", latest_price, print() ```
+
+## Notes: In order to manage API calls, the **requests** library is necessary.
+Rather than being hardcoded, the API key ought to be safely saved.
+Verify that the API base URL is accurate and current.
+Since the return format is JSON, processing and parsing must be done correctly.
+
+## Permit
+The goal of this endeavor is education. For usage restrictions, please refer to the terms provided by the API provider.
+
+
