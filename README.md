@@ -56,7 +56,7 @@ The goal of this endeavor is education. For usage restrictions, please refer to 
 
 ### 🔗 Other Links
 - **Real-Time Currency Conversion:** [Forex Real Time Conversion](https://insightease.com/currency-converter)
-- **Contact Us:** [Contact](https://insightease.com/contact)
+-[**Contact Us**](https://insightease.com/contact)
 
 ## Notes: In order to manage API calls, the **requests** library is necessary.
 Rather than being hardcoded, the API key ought to be safely saved.
