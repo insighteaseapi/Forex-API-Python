@@ -5,7 +5,7 @@ from insightease_forex import insighteaseForex
 
 def main():
     # An API key, you can get free at https://insighteaseapi.com/dashboard
-    forex_api = insighteaseForex(api_key='TrN3njXhvR5Jkqz0VPZIOdHRrE')
+    forex_api = insighteaseForex(api_key='Your_api_key')
 
     latest_price = forex_api.get_latest_price("GBP/CHF")
     print("Latest Price of GBP/CHF :", latest_price)
