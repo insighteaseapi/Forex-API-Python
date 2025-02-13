@@ -59,7 +59,7 @@ print("Latest Price of GBP/CHF:", latest_price)
 - **[NodeJS Library](https://github.com/fcsapi/forex-api-node-js)** - Forex API for Node.js
 
 Support and Contact
-you can contact us at support@fcsapi.com or Live chat at https://fcsapi.com
+you can contact us at support@support@insightease.com or Live chat at https://insightease.com
 
 ## Notes
 - The **requests** library is required to handle API calls.
