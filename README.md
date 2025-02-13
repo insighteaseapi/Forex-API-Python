@@ -3,8 +3,9 @@
 ## Overview
 
 ### Language Used
-This project is implemented using **Python**.
-This project integrates with the **Insightease Forex API** to retrieve and manipulate forex-related data. It offers functionalities such as fetching forex symbols, performing currency conversions, retrieving the latest prices, and analyzing historical data using Python.
+
+**Python** is utilized to implement this project.
+This project retrieves and manipulates forex-related data by integrating with the **Insightease Forex API**. It provides features including obtaining forex symbols, converting currencies, getting the most recent prices, and using Python to analyze historical data.
 
 ## Components
 - **`insightease_forex.py`**: Implements the `insighteaseForex` class, which provides multiple API interaction methods.
@@ -46,6 +47,19 @@ print("Latest Price of GBP/CHF:", latest_price)
 - **Pivot Points & Indicators**: Get technical analysis data like moving averages and pivot points.
 - **Economic Calendar**: Fetch economic events and market-moving news.
 - **Search API**: Perform searches for specific currency pairs.
+
+## Other Links
+
+📌 **[Forex live prices with python API](https://github.com/fcsapi/Real-Time-Prices-with-Socket-PHP)** - Github Real-Time Prices
+
+📌 **[Forex JS WebSocket]([https://insightease.com/docs/forex-api])** - WebSocket API Documentation
+
+📌 **[Python Library](https://github.com/fcsapi/Forex-API-Python)** - Forex API for Python
+
+📌 **[NodeJS Library](https://github.com/fcsapi/forex-api-node-js)** - Forex API for Node.js
+
+Support and Contact
+you can contact us at support@fcsapi.com or Live chat at https://fcsapi.com
 
 ## Notes
 - The **requests** library is required to handle API calls.
