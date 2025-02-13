@@ -67,7 +67,7 @@ atest Price of GBP/CHF:", latest_price, print() ```
 
 ### 🔗 Other Links
 - **Real-Time Currency Conversion:** [Github Real Time Conversion](https://insightease.com/currency-converter)
-- **Forex WebSocket:** [https://fcsapi.com/document/socket-api](https://insightease.com/docs/stock-api)
+- **Contact Us:** (https://insightease.com/docs/forex-api)
 
 
 
