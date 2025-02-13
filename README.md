@@ -50,13 +50,13 @@ print("Latest Price of GBP/CHF:", latest_price)
 
 ## Other Links
 
-📌 **[Forex live prices with python API](https://github.com/fcsapi/Real-Time-Prices-with-Socket-PHP)** - Github Real-Time Prices
+- **[Forex live prices with python API](https://github.com/fcsapi/Real-Time-Prices-with-Socket-PHP)** - Github Real-Time Prices
 
-📌 **[Forex JS WebSocket]([https://insightease.com/docs/forex-api])** - WebSocket API Documentation
+- **[Forex JS WebSocket]([https://insightease.com/docs/forex-api])** - WebSocket API Documentation
 
-📌 **[Python Library](https://github.com/fcsapi/Forex-API-Python)** - Forex API for Python
+- **[Python Library](https://github.com/fcsapi/Forex-API-Python)** - Forex API for Python
 
-📌 **[NodeJS Library](https://github.com/fcsapi/forex-api-node-js)** - Forex API for Node.js
+- **[NodeJS Library](https://github.com/fcsapi/forex-api-node-js)** - Forex API for Node.js
 
 Support and Contact
 you can contact us at support@fcsapi.com or Live chat at https://fcsapi.com
