@@ -55,7 +55,7 @@ print("Latest Price of GBP/CHF:", latest_price)
 The goal of this endeavor is education. For usage restrictions, please refer to the terms provided by the API provider.
 
 ### 🔗 Other Links
-- **Real-Time Currency Conversion:** [Github Real Time Conversion](https://insightease.com/currency-converter)
+- **Real-Time Currency Conversion:** [Forex Real Time Conversion](https://insightease.com/currency-converter)
 - **Contact Us:** [Contact](https://insightease.com/contact)
 
 ## Notes: In order to manage API calls, the **requests** library is necessary.
