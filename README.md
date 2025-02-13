@@ -1,11 +1,11 @@
-# FCS Forex API Integration
+# Insight Forex API Integration
 
 ## Overview
-This project integrates with the **FCS Forex API** to retrieve and manipulate forex-related data. It provides functionalities such as fetching forex symbols, currency conversion, retrieving latest prices, and analyzing historical data using Python.
+This project integrates with the **Insight Forex API** to retrieve and manipulate forex-related data. It provides functionalities such as fetching forex symbols, currency conversion, retrieving latest prices, and analyzing historical data using Python.
 
 ### Components:
-- `Fcs_forex.py`: Implements the `FCSForex` class, which provides multiple API interaction methods.
-- `Main.py`: Demonstrates the usage of `FCSForex` by calling various functions and printing the results.
+- `insight_forex.py`: Implements the `insightForex` class, which provides multiple API interaction methods.
+- `Main.py`: Demonstrates the usage of `insightForex` by calling various functions and printing the results.
 
 ## Installation
 ### Requirements
@@ -26,7 +26,7 @@ python Main.py
 ```
 
 ## API Methods
-The `FCSForex` class provides the following key methods:
+The `insightForex` class provides the following key methods:
 
 | Method | Description |
 |--------|-------------|
@@ -42,55 +42,11 @@ The `FCSForex` class provides the following key methods:
 ## Example Usage
 Example call to fetch the latest price for GBP/CHF:
 ```python
-from Fcs_forex import FCSForex
+from insight_forex import insightForex
 
-forex_api = FCSForex(api_key='YOUR_API_KEY')
+forex_api = insightForex(api_key='YOUR_API_KEY')
 latest_price = forex_api.get_latest_price("GBP/CHF")
 print("Latest Price of GBP/CHF:", latest_price)
-```
-### API Response Format
-When making a request to the FCS Forex API, you will receive a JSON response structured like this:
-
-```json
-{
-    "status": true,
-    "code": 200,
-    "msg": "Request Successful",
-    "response": [
-        {
-            "symbol": "EUR/USD",
-            "price": "1.12345",
-            "change": "+0.00234",
-            "change_percentage": "0.21%",
-            "timestamp": 1707809123
-        },
-        {
-            "symbol": "GBP/USD",
-            "price": "1.30789",
-            "change": "-0.00056",
-            "change_percentage": "-0.04%",
-            "timestamp": 1707809156
-        }
-    ]
-}
-```
-
-Each response contains:
-- **status**: Indicates whether the request was successful (true/false).
-- **code**: HTTP status code of the response.
-- **msg**: A message describing the status of the request.
-- **response**: An array of forex symbols with details:
-  - **symbol**: The currency pair.
-  - **price**: The latest exchange rate.
-  - **change**: The absolute price change.
-  - **change_percentage**: The percentage change in price.
-  - **timestamp**: The UNIX timestamp of the data.
-
-### Usage
-Run the script to fetch live forex data:
-
-```sh
-python main.py
 ```
 
 ## Notes
