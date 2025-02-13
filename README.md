@@ -36,15 +36,6 @@ insightForex(api_key='YOUR_API_KEY') = forex_api
 forex_api.get_latest_price("GBP/CHF") = latest_price
 "Latest Price of GBP/CHF:", latest_price, print() ```
 
-## Notes: In order to manage API calls, the **requests** library is necessary.
-Rather than being hardcoded, the API key ought to be safely saved.
-Verify that the API base URL is accurate and current.
-Since the return format is JSON, processing and parsing must be done correctly.
-
-## Permit
-The goal of this endeavor is education. For usage restrictions, please refer to the terms provided by the API provider.
-atest Price of GBP/CHF:", latest_price, print() ```
-
 ## Installation
 ### Prerequisites
 Ensure that Python is installed (Python 3.6 or later is recommended). Next, install the required dependencies:
@@ -62,6 +53,17 @@ To make API requests and retrieve forex data, run the main script:
 ```sh
 python main.py
 ```
+
+
+## Notes: In order to manage API calls, the **requests** library is necessary.
+Rather than being hardcoded, the API key ought to be safely saved.
+Verify that the API base URL is accurate and current.
+Since the return format is JSON, processing and parsing must be done correctly.
+
+## Permit
+The goal of this endeavor is education. For usage restrictions, please refer to the terms provided by the API provider.
+atest Price of GBP/CHF:", latest_price, print() ```
+
 
 ### 🔗 Other Links
 - **Real-Time Currency Conversion:** [Github Real Time Conversion](https://insightease.com/currency-converter)
