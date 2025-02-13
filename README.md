@@ -43,9 +43,6 @@ Since the return format is JSON, processing and parsing must be done correctly.
 
 ## Permit
 The goal of this endeavor is education. For usage restrictions, please refer to the terms provided by the API provider.
-
-
-
 atest Price of GBP/CHF:", latest_price, print() ```
 
 ## Installation
@@ -65,6 +62,13 @@ To make API requests and retrieve forex data, run the main script:
 ```sh
 python main.py
 ```
+
+### 🔗 Other Links
+- **Forex live prices with Socket:** [Github Real Time prices](https://github.com/fcsapi/Real-Time-Prices-with-Socket-PHP)
+- **Forex JS WebSocket:** [https://fcsapi.com/document/socket-api](https://insightease.com/docs/stock-api)
+- **Python Library:** [Forex API Python](https://github.com/fcsapi/Forex-API-Python)
+- **NodeJS Library:** [Forex API Node Js](https://github.com/fcsapi/forex-api-node-js)
+
 
 ## Notes: In order to manage API calls, the **requests** library is necessary.
 Rather than being hardcoded, the API key ought to be safely saved.
