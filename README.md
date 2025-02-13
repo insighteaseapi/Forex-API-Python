@@ -1,7 +1,8 @@
 # Forex API Python by Insightease
 
 ## Overview
-This project integrates seamlessly with the **Forex API Python by Insightease** to retrieve and process forex-related data. It offers a range of functionalities, including fetching forex symbols, converting currencies, retrieving real-time prices, and analyzing historical data—all powered by Python. 
+This project integrates seamlessly with the **[Forex API Python by Insightease](https://insightease.com/docs/forex-api)**
+ to retrieve and process forex-related data. It offers a range of functionalities, including fetching forex symbols, converting currencies, retrieving real-time prices, and analyzing historical data—all powered by Python. 
 
 ### Components:
 - `insight_forex.py`: Implements the `insightForex` class, which provides multiple API interaction methods.
@@ -43,7 +44,6 @@ Since the return format is JSON, processing and parsing must be done correctly.
 ## Permit
 The goal of this endeavor is education. For usage restrictions, please refer to the terms provided by the API provider.
 
-.
 
 ## Permit
 The goal of this endeavor is education. For usage restrictions, please refer to the terms provided by the API provider.
@@ -52,7 +52,7 @@ atest Price of GBP/CHF:", latest_price, print() ```
 
 ### 🔗 Other Links
 - **Real-Time Currency Conversion:** [Github Real Time Conversion](https://insightease.com/currency-converter)
-- **Contact Us:** (https://insightease.com/docs/forex-api)
+- **Contact Us:** [https://insightease.com/contact]
 
 
 
