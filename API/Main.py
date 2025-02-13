@@ -1,11 +1,11 @@
-# insight_forex/main.py
-# Import insight API Class
-from insight_forex import insightForex
+# insightease_forex/main.py
+# Import insightease API Class
+from insightease_forex import insighteaseForex
 
 
 def main():
-    # An API key, you can get free at https://insightapi.com/dashboard
-    forex_api = insightForex(api_key='TrN3njXhvR5Jkqz0VPZIOdHRrE')
+    # An API key, you can get free at https://insighteaseapi.com/dashboard
+    forex_api = insighteaseForex(api_key='TrN3njXhvR5Jkqz0VPZIOdHRrE')
 
     latest_price = forex_api.get_latest_price("GBP/CHF")
     print("Latest Price of GBP/CHF :", latest_price)
