@@ -51,8 +51,6 @@ print("Latest Price of GBP/CHF:", latest_price)
 - Verify that the API base URL is accurate and current.
 - Since the return format is JSON, processing and parsing must be done correctly.
 
-## Permit
-The goal of this endeavor is education. For usage restrictions, please refer to the terms provided by the API provider.
 
 ### 🔗 Other Links
 - **Real-Time Currency Conversion:** [Forex Real Time Conversion](https://insightease.com/currency-converter)
