@@ -52,11 +52,10 @@ print("Latest Price of GBP/CHF:", latest_price)
 
 - **[Forex live prices with python API](https://github.com/fcsapi/Real-Time-Prices-with-Socket-PHP)** - Github Real-Time Prices
 
-- **[Forex JS WebSocket]([https://insightease.com/docs/forex-api])** - WebSocket API Documentation
+- **[Forex WebSocket]([https://insightease.com/docs/forex-api])** - WebSocket API Documentation
 
-- **[Python Library](https://github.com/fcsapi/Forex-API-Python)** - Forex API for Python
+- **[Currency Conversion](https://insightease.com/currency-converter)** - Real-Time Currency Conversion
 
-- **[NodeJS Library](https://github.com/fcsapi/forex-api-node-js)** - Forex API for Node.js
 
 Support and Contact
 you can contact us at support@support@insightease.com or Live chat at https://insightease.com
