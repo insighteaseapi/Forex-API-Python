@@ -48,6 +48,50 @@ forex_api = FCSForex(api_key='YOUR_API_KEY')
 latest_price = forex_api.get_latest_price("GBP/CHF")
 print("Latest Price of GBP/CHF:", latest_price)
 ```
+### API Response Format
+When making a request to the FCS Forex API, you will receive a JSON response structured like this:
+
+```json
+{
+    "status": true,
+    "code": 200,
+    "msg": "Request Successful",
+    "response": [
+        {
+            "symbol": "EUR/USD",
+            "price": "1.12345",
+            "change": "+0.00234",
+            "change_percentage": "0.21%",
+            "timestamp": 1707809123
+        },
+        {
+            "symbol": "GBP/USD",
+            "price": "1.30789",
+            "change": "-0.00056",
+            "change_percentage": "-0.04%",
+            "timestamp": 1707809156
+        }
+    ]
+}
+```
+
+Each response contains:
+- **status**: Indicates whether the request was successful (true/false).
+- **code**: HTTP status code of the response.
+- **msg**: A message describing the status of the request.
+- **response**: An array of forex symbols with details:
+  - **symbol**: The currency pair.
+  - **price**: The latest exchange rate.
+  - **change**: The absolute price change.
+  - **change_percentage**: The percentage change in price.
+  - **timestamp**: The UNIX timestamp of the data.
+
+### Usage
+Run the script to fetch live forex data:
+
+```sh
+python main.py
+```
 
 ## Notes
 - The **requests** library is required to handle API calls.
