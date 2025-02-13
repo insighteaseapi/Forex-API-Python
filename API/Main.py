@@ -5,7 +5,7 @@ from Fcs_forex import FCSForex
 
 def main():
     # An API key, you can get free at https://fcsapi.com/dashboard
-    forex_api = FCSForex(api_key='TrN3njXhvR5Jkqz0VPZIOdHRrE')
+    forex_api = FCSForex(api_key='Your_Api_Key')
 
     latest_price = forex_api.get_latest_price("GBP/CHF")
     print("Latest Price of GBP/CHF :", latest_price)
