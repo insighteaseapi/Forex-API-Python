@@ -1,7 +1,7 @@
 # Forex API Python by Insightease
 
 ## Overview
-This project integrates seamlessly with the **[Forex API Python by Insightease](https://insightease.com/docs/forex-api)** to retrieve and process forex-related data. It offers a range of functionalities, including fetching forex symbols, converting currencies, retrieving real-time prices, and analyzing historical data—all powered by Python.
+This project integrates seamlessly with the **[Forex API Python - Insightease](https://insightease.com/docs/forex-api)** to retrieve and process forex-related data. It offers a range of functionalities, including fetching forex symbols, converting currencies, retrieving real-time prices, and analyzing historical data—all powered by Python.
 
 ### Components:
 - `insight_forex.py`: Implements the `insightForex` class, which provides multiple API interaction methods.
